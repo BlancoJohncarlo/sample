@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+a {
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.76);
+    cursor: pointer;
+    font-family: 'Mansalva',sans-serif;
+} 
+ul{
+    list-style: none;
+}
+body, html{
+    overflow-x: hidden;
+}
+.logo{
+    font-family: 'Mansalva',sans-serif;
+}
+h1{
+    font-family: 'Mansalva',sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgba(245, 245, 245, 0.76);
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+
+}
+.nav-link li{
+    margin: 0 30px;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/bgimg.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom:150px;
+    color: rgb(112, 81, 2);
+    text-align: center;
+
+}
+.header-content h2{
+    font-size: 6vmin;
+    font-family: 'Mansalva',sans-serif;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(112, 81, 2);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Mansalva',sans-serif;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #24231D;
+    border-radius: 30px;
+    color: rgba(245, 245, 245, 0.76);
+    cursor: pointer;
+    font-family: 'Mansalva',sans-serif;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(112, 81, 2);
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events .row{
+    margin-top: 50px;
+
+}
+h4{
+    font-size: 3vmin;
+    color: #24231D;
+    margin: 20px auto;
+    font-family: 'Mansalva',sans-serif;
+}
+p{
+    color: #5c5146;
+    padding: 0px 50px;
+    font-family: 'Mansalva',sans-serif;
+}
+.events .ctn{
+    margin-top: 30px;
+}
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/clark.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: rgb(112, 81, 2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1{
+    font-size: 7vmin;
+    margin: 50px;
+
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+.explore-content p{
+    color: rgb(255, 255, 255)
+}
+.explore-content .ctn{
+    margin-top: 40px;
+}
+
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+.tours .img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+
+}
+.img{
+    max-width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+.content-col h1{
+   font-size: 7vmin;
+   color: rgb(112, 81, 2);
+}
+.content-col .line{
+    margin-left: -1px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+.content-col .ctn{
+    margin-left: -100px;
+}
+.footer{
+    width: 100%;
+    min-height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: #24231D;
+    text-align: center;
+}
+.footer  p{
+    color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px auto;
+}
+@media only screen and (max-width:850px){
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
