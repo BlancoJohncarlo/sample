@@ -19,8 +19,6 @@ ul{
 body, html{
     overflow-x: hidden;
     background-color: #625755;
-    width: 1440px;
-    height: 900px;
 }
 .logo{
     font-family: 'Mansalva',sans-serif;
