@@ -9,22 +9,27 @@
 }
 a {
     text-decoration: none;
-    color: rgba(245, 245, 245, 0.76);
+    color: rgb(214, 0, 0);
     cursor: pointer;
     font-family: 'Mansalva',sans-serif;
+    font-weight: bold;
 } 
 ul{
     list-style: none;
+    
 }
 body, html{
     overflow-x: hidden;
-    background-color: #625755;
+    background-color: #6d1506cc;
+    
 }
 .logo{
     font-family: 'Mansalva',sans-serif;
 }
 h1{
     font-family: 'Mansalva',sans-serif;
+    font-weight: bold;
+    
 }
 
 .navbar{
@@ -35,7 +40,7 @@ h1{
     width: 100%;
     justify-content: space-between;
     padding: 20px;
-    color: rgba(245, 245, 245, 0.76);
+    color: rgb(107, 28, 18);
 }
 .nav-link{
     display: flex;
@@ -44,6 +49,9 @@ h1{
 }
 .nav-link li{
     margin: 0 30px;
+}
+.dark-img{
+    filter: brightness(30%);
 }
 header{
     width: 100vw;
@@ -57,18 +65,19 @@ header{
 }
 .header-content{
     margin-bottom:150px;
-    color: rgb(112, 81, 2);
+    color: rgb(107, 43, 18);
     text-align: center;
 
 }
 .header-content h2{
     font-size: 6vmin;
     font-family: 'Mansalva',sans-serif;
+    font-weight: bolder;
 }
 .line{
     width: 150px;
     height: 4px;
-    background: rgb(112, 81, 2);
+    background: rgb(63, 27, 13);
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -77,14 +86,16 @@ header{
     margin-top: 50px;
     margin-bottom: 30px;
     font-family: 'Mansalva',sans-serif;
+    font-weight: 900;
 }
 .ctn{
     padding: 8px 15px;
     background: #24231D;
     border-radius: 30px;
-    color: rgba(245, 245, 245, 0.76);
+    color: rgb(155, 27, 4);
     cursor: pointer;
     font-family: 'Mansalva',sans-serif;
+    font-weight: 500;
 }
 section{
     width: 80%;
@@ -93,7 +104,7 @@ section{
 .title{
     text-align: center;
     font-size: 4vmin;
-    color: rgb(112, 81, 2);
+    color: rgb(0, 0, 0);
 }
 .row{
     display: flex;
@@ -113,13 +124,14 @@ section{
 
 }
 h4{
-    font-size: 3vmin;
-    color: #24231D;
+    font-size: 4vmin;
+    color: #000000;
     margin: 20px auto;
+    font-weight: 600;
     font-family: 'Mansalva',sans-serif;
 }
 p{
-    color: #ffffff;
+    color: rgba(219, 219, 219, 0.76);
     padding: 0px 50px;
     font-family: 'Mansalva',sans-serif;
 }
@@ -141,7 +153,7 @@ p{
 .explore-content{
     width: 60%;
     padding: 50px;
-    color: rgb(112, 81, 2);
+    color: rgb(167, 0, 0);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -155,7 +167,7 @@ p{
     margin-bottom: 50px;
 }
 .explore-content p{
-    color: rgb(255, 255, 255)
+    color: rgba(219, 219, 219, 0.76);
 }
 .explore-content .ctn{
     margin-top: 40px;
@@ -181,7 +193,7 @@ p{
 }
 .content-col h1{
    font-size: 7vmin;
-   color: rgb(112, 81, 2);
+   color: rgb(0, 0, 0);
 }
 .content-col .line{
     margin-left: -1px;
@@ -202,7 +214,7 @@ p{
     text-align: center;
 }
 .footer  p{
-    color: rgb(255, 255, 255);
+    color: rgba(219, 219, 219, 0.76);
     margin: 20px auto;
     padding: 20px auto;
 }
